@@ -8,7 +8,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 
-public class RootApproximator_Eric {
+public class RootApproximator_GUI {
 	
 	JLabel label;
 	JTextField field;
@@ -22,7 +22,7 @@ public class RootApproximator_Eric {
 	}
 	
 	public static void main(String[] args) {
-		new AppRt_Eric().go();
+		new RootApproximator_GUI().go();
 	}
 	public void go() {
 		label = new JLabel(" ");
